@@ -35,6 +35,26 @@
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Center" />
 
+            <Button
+                x:Name="AlertBtn"
+                Text="Show Alert"
+                SemanticProperties.Hint="Show a test alert message."
+                Clicked="OnAlertClicked"
+                HorizontalOptions="Center" />
+
+            <Button
+                x:Name="BrowserBtn"
+                Text="Open Browser"
+                SemanticProperties.Hint="Show a web browser."
+                Clicked="OnBrowserClicked"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="PickerBtn"
+                Text="Open File Picker"
+                SemanticProperties.Hint="Show a file picker."
+                Clicked="OnPickerClicked"
+                HorizontalOptions="Center" />
+
         </VerticalStackLayout>
     </ScrollView>
 
